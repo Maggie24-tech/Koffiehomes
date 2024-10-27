@@ -11,86 +11,156 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
       src="https://kit.fontawesome.com/f77b945189.js"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h4>(123) 456-7690 | example@gmail.com</h4>
-    <div class="card">
-      <img src="Images/inside-home.jpg" class="card-img" alt="..." />
-      <div class="card-img-overlay">
-        <h2 class="card-title">KOFFIE HOMES</h2>
-        <h1 class="card-text">Rental properties in Ohio</h1>
-      </div>
-    </div>
-    <h3>PROPERTIES</h3>
-    <h3>RENT</h3>
-    <h3>UTILITIES</h3>
-    <p>
-      Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-      consectetur volutpat commodo mi suspendisse odio. Id ac lorem maecenas
-      rhoncusId ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-      consectetur volutpat commodo mi suspendisse odio. lobortis turpis morbi.
-      Id ut lobortis consectetur volutpat commodo mi suspendisse odio.Id ac
-      lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis consectetur
-      volutpat commodo mi suspendisse odio.
-    </p>
-    <div class="card">
-      <img src="Images/inside-home.jpg" class="card-img" alt="..." />
-      <div class="card-img-overlay">
-        <h5 class="card-title">BENEFITS OF RENTING WITH US</h5>
-        <p class="card-text">
-          Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
-          consectetur volutpat commodo mi suspendisse odio.
-        </p>
-        <a href="#" class="btn btn-branding">CONTACT US</a>
-      </div>
-    </div>
-    <h3>LOCATIONS</h3>
-    <div class="card-group">
-      <div class="card">
-        <img src="Images/lousville.jpg" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h3 class="card-title">LOUSVILLE</h3>
+    <header>
+      <h4>(123) 456-7690 | example@gmail.com</h4>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"
+            ><img src="Images/banner-logo.png" alt="" class="banner-logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Properties.html">Properties</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Information.html">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img src="Images/lousville.jpg" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h3 class="card-title">LOUSVILLE</h3>
-        </div>
-      </div>
-      <div class="card">
-        <img src="Images/lousville.jpg" class="card-img" alt="..." />
-        <div class="card-img-overlay">
-          <h3 class="card-title">LOUSVILLE</h3>
-        </div>
-      </div>
-    </div>
+      </nav>
 
-    <h3>PROPERTIES</h3>
-    <div class="card-group">
-      <div class="card">
-        <img src="Images/Home-front.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Address</h5>
-          <p class="card-text"> 3 Bedrooms 1.5 Baths</p>
-          <p>0,000 sq. ft.</p>
-        </div>
+      <div class="banner-img">
+        <h2>KOFFIE HOMES</h2>
+        <h1>Rental properties in Ohio</h1>
       </div>
 
-      <div class="card">
-        <img src="Images/Home-front.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Address</h5>
-          <p class="card-text"> 3 Bedrooms 1.5 Baths</p>
-          <p>0,000 sq. ft.</p>
+      <div class="card-group info">
+        <div class="card">
+          <div class="card-body properties">
+            <h5 class="card-title properties">
+              <a href="/Properties.html">PROPERTIES</a>
+            </h5>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body rent">
+            <h5 class="card-title rent">
+              <a href="/Information.html">RENT</a>
+            </h5>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body utilities">
+            <h5 class="card-title utilities">
+              <a href="/Information.html">UTILITIES</a>
+            </h5>
+          </div>
         </div>
       </div>
-    </div>
-    <a href="#">View all properties</a>
-    <h3>What Renters are saying</h3>
+    </header>
+    <main>
+      <p class="desc">
+        Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
+        consectetur volutpat commodo mi suspendisse odio. Id ac lorem maecenas
+        rhoncusId ac lorem maecenas rhoncus lobortis turpis morbi. Id ut
+        lobortis consectetur volutpat commodo mi suspendisse odio. lobortis
+        turpis morbi. Id ut lobortis consectetur volutpat commodo mi suspendisse
+        odio.Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
+        consectetur volutpat commodo mi suspendisse odio.
+      </p>
+      <div class="card">
+        <img src="Images/inside-home.jpg" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h5 class="card-title">BENEFITS OF RENTING WITH US</h5>
+          <p class="card-text">
+            Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
+            consectetur volutpat commodo mi suspendisse odio.
+          </p>
+          <a href="#" class="btn btn-branding">CONTACT US</a>
+        </div>
+      </div>
+      <h3>LOCATIONS</h3>
+      <div class="card-group">
+        <div class="card">
+          <img src="Images/lousville.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h3 class="card-title">LOUSVILLE</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/lousville.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h3 class="card-title">LOUSVILLE</h3>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/lousville.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h3 class="card-title">LOUSVILLE</h3>
+          </div>
+        </div>
+      </div>
+
+      <h3>PROPERTIES</h3>
+      <div class="card-group">
+        <div class="card">
+          <img src="Images/Home-front.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Address</h5>
+            <p class="card-text"> 3 Bedrooms 1.5 Baths</p>
+            <p>0,000 sq. ft.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Images/Home-front.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Address</h5>
+            <p class="card-text"> 3 Bedrooms 1.5 Baths</p>
+            <p>0,000 sq. ft.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#">View all properties</a>
+      <h3>What Renters are saying</h3>
+    </main>
     <footer>
       <a href="#">Properties</a>
       <a href="#">Information</a>
