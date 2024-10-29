@@ -11,7 +11,7 @@ h3 {
   font-weight: 600;
   font-family: " Inter ", sans-serif;
   text-align: center;
-  margin: 90px 0 50px;
+  margin: 70px 0 50px;
 }
 
 .banner-logo {
@@ -99,7 +99,7 @@ nav {
 
 .desc {
   text-align: center;
-  margin: 70px;
+  padding: 60px;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -130,7 +130,8 @@ nav {
   font-family: " Inter ", sans-serif;
   font-weight: 100;
   line-height: 30px;
-  margin: 10px 90px 60px;
+  padding: 0 60px;
+  margin: 10px 15px 60px;
 }
 
 .main-banner .buttom {
@@ -143,8 +144,6 @@ nav {
   font-weight: 500;
   font-family: " Inter ", sans-serif;
 }
-
-/*........................*/
 
 .locations {
   display: flex;
@@ -189,9 +188,7 @@ nav {
   top: 140px;
 }
 
-/*........................*/
-
-/*
+/*.......................
 media size
 .locations li a {
   font-size: 20px;}
@@ -216,3 +213,93 @@ media size
   text-decoration: none;
   color: white;
 }
+
+.review-sec {
+  background: #d9d9d9;
+  padding: 50px 210px 90px;
+  margin: 100px 0 50px;
+}
+
+.review-sec .row {
+  background-color: #8ea4bb;
+  padding: 40px 30px;
+}
+
+.reviewer i {
+  margin-right: 8px;
+  background-color: #0b3a6e;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.reviewer-name {
+  color: gray;
+  font-size: 14px;
+  font-weight: 570;
+  font-family: " Inter ", sans-serif;
+}
+
+/*.......................
+media size 
+.review-sec {
+   padding: 50px 60px 90px;
+*/
+
+footer {
+  color: black;
+  font-family: " Inter ", sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  right: 20%;
+  padding: 20px 0 80px;
+}
+
+footer p {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer li {
+  list-style: none;
+  text-decoration: underline;
+}
+
+footer .vertical {
+  border-left: 1px solid black;
+  height: 200px;
+  padding: 60px;
+}
+
+.first-part-footer {
+  font-size: 18px;
+  line-height: 2;
+  padding-right: 60px;
+  margin-top: 60px;
+}
+
+.third-part-footer {
+  text-align: center;
+  line-height: 2;
+  font-size: 30px;
+}
+
+footer .third-part {
+  margin-top: -30px;
+}
+
+.third-part-footer h4 {
+  font-size: 18px;
+}
+
+/*.......................
+footer .third-part {
+  margin-top: -20px;
+}
+*/
