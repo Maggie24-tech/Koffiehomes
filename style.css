@@ -6,6 +6,14 @@ body {
   background-color: #f3f3f3;
 }
 
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: " Inter ", sans-serif;
+  text-align: center;
+  margin: 90px 0 50px;
+}
+
 .banner-logo {
   max-width: 50px;
 }
@@ -38,7 +46,7 @@ nav {
   font-family: "Inter", sans-serif;
 }
 
-.banner-img {
+.top-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("/images/inside-home.jpg");
   background-repeat: no-repeat;
@@ -49,23 +57,22 @@ nav {
   margin-bottom: 0px;
 }
 
-.banner-img h1 {
+.top-banner h1 {
   font-size: 36px;
   font-family: "Old Standard TT", serif;
 }
 
-.banner-img h2 {
+.top-banner h2 {
   font-size: 90px;
   font-family: "Old Standard TT", serif;
-  display: inline;
 }
 
-.info {
+.buttom {
   text-align: center;
   text-decoration: none;
 }
 
-.info a {
+.buttom a {
   text-decoration: none;
   color: white;
 }
@@ -73,7 +80,7 @@ nav {
 .properties,
 .rent,
 .utilities {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
   padding: 10px 0;
 }
@@ -90,7 +97,122 @@ nav {
   background-color: #0b3a6e;
 }
 
-main .desc {
+.desc {
   text-align: center;
   margin: 70px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.main-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/inside-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 90px 0px;
+  margin-bottom: 60px;
+}
+
+.main-banner h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  font-family: " Inter ", sans-serif;
+}
+
+.main-banner p {
+  font-family: " Inter ", sans-serif;
+  font-weight: 100;
+  line-height: 30px;
+  margin: 10px 90px 60px;
+}
+
+.main-banner .buttom {
+  padding: 15px 22px;
+  border: 3px #8ea4bb solid;
+  background-color: #0b3a6e;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: " Inter ", sans-serif;
+}
+
+/*........................*/
+
+.locations {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  gap: 3%;
+  text-align: center;
+  filter: brightness(80%);
+  opacity: 0.8;
+  padding: 0 198px 20px;
+}
+
+.location:hover {
+  filter: brightness(106%) contrast(92%) saturate(124%) sepia(46%);
+}
+
+.location {
+  transition: all 1s linear;
+}
+
+.location:hover {
+  transform: scale(1.1);
+}
+
+.locations img {
+  width: 340px;
+  height: 220px;
+  max-width: 100%;
+  border: 1px #8ea4bb solid;
+}
+
+.locations li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: " Inter ", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.location-name {
+  position: relative;
+  top: 140px;
+}
+
+/*........................*/
+
+/*
+media size
+.locations li a {
+  font-size: 20px;}
+
+.locations {
+   padding: 0 50px 0 30px;}
+*/
+
+.property {
+  padding: 30px 150px 70px;
+}
+
+.property-link {
+  text-align: center;
+}
+
+.property-link a {
+  padding: 15px 30px;
+  background-color: #0b3a6e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  text-decoration: none;
+  color: white;
 }
