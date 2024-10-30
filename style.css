@@ -364,9 +364,14 @@ footer .third-part {
   /*footer*/
   footer {
     padding-left: 0;
+    margin-left: 0;
   }
 
   footer .vertical {
     padding: 30px;
+  }
+
+  footer .third-part {
+    margin-top: 1px;
   }
 }
