@@ -7,7 +7,6 @@ body {
   max-width: 100%;
   display: block;
   margin: 0;
-  margin-bottom: 60px;
   background-color: #f3f3f3;
 }
 
@@ -205,17 +204,8 @@ nav {
   top: 140px;
 }
 
-/*.......................
-media size
-.locations li a {
-  font-size: 20px;}
-
-.locations {
-   padding: 0 50px 0 30px;}
-*/
-
 .property {
-  padding: 30px 150px 70px;
+  padding: 30px 180px 70px;
 }
 
 .property-link {
@@ -231,10 +221,15 @@ media size
   color: white;
 }
 
+.review-sec h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
 .review-sec {
   background: #d9d9d9;
   padding: 50px 210px 90px;
-  margin: 100px 0 50px;
+  margin: 100px 0 0px;
 }
 
 .review-sec .row {
@@ -257,25 +252,27 @@ media size
   font-family: var(--text-font-family);
 }
 
-/*.......................
-media size 
-.review-sec {
-   padding: 50px 60px 90px;
-*/
-
-footer {
-  color: black;
+.footer-info {
   font-family: var(--text-font-family);
   display: flex;
   flex-wrap: nowrap;
-  position: absolute;
-  right: 20%;
-  padding: 20px 0 80px;
+  text-align: center;
+}
+
+footer {
+  padding: 80px 0px 100px 0px;
+  background-color: white;
+  padding-left: 30%;
 }
 
 footer p {
-  font-size: 18px;
+  font-size: 13px;
   text-align: center;
+}
+
+footer h2 {
+  font-size: 16px;
+  display: block;
 }
 
 footer a {
@@ -295,7 +292,7 @@ footer .vertical {
 }
 
 .first-part-footer {
-  font-size: 18px;
+  font-size: 13px;
   line-height: 2;
   padding-right: 60px;
   margin-top: 60px;
@@ -304,7 +301,7 @@ footer .vertical {
 .third-part-footer {
   text-align: center;
   line-height: 2;
-  font-size: 30px;
+  font-size: 16px;
 }
 
 footer .third-part {
@@ -312,16 +309,15 @@ footer .third-part {
 }
 
 .third-part-footer h4 {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 400;
 }
-
-/*.......................
-footer .third-part {
-  margin-top: -20px;
-}
-*/
 
 @media (max-width: 940px) {
+  body {
+    margin-bottom: ;
+  }
+
   /**navbar-**/
   .navbar-nav {
     padding-left: 0;
@@ -351,5 +347,26 @@ footer .third-part {
 
   .locations {
     padding: 0 30px;
+  }
+
+  .property {
+    padding: 30px 100px 70px;
+  }
+
+  .review-sec {
+    padding: 50px 80px 90px;
+  }
+
+  .review-sec .row {
+    padding: 20px 20px 40px;
+  }
+
+  /*footer*/
+  footer {
+    padding-left: 0;
+  }
+
+  footer .vertical {
+    padding: 30px;
   }
 }
