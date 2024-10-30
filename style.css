@@ -33,6 +33,14 @@ header h4 {
   text-align: center;
 }
 
+header h4 i {
+  padding: 0 5px;
+}
+
+header h4 a {
+  color: white;
+}
+
 .active:hover {
   color: gray !important;
 }
