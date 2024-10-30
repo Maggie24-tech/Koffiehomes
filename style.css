@@ -372,14 +372,15 @@ footer .third-part {
   }
 
   footer .third-part {
-    margin-top: 2px;
-  }
-  .second-part-footer {
     margin-top: 12px;
   }
 
+  .second-part-footer {
+    margin-top: 6px;
+  }
+
   .second-part-footer h2 {
-    margin-top: 12px;
+    padding-top: 22px;
   }
 
   footer p {
