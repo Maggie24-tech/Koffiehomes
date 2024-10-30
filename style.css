@@ -51,6 +51,18 @@ nav {
   font-family: var(--text-font-family);
 }
 
+.navbar-nav {
+  padding-left: 30%;
+}
+
+.navbar a {
+  margin-left: 20px;
+}
+
+.logo-small {
+  display: none;
+}
+
 .top-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("/images/inside-home.jpg");
@@ -308,3 +320,36 @@ footer .third-part {
   margin-top: -20px;
 }
 */
+
+@media (max-width: 940px) {
+  /**navbar-**/
+  .navbar-nav {
+    padding-left: 0;
+  }
+
+  .navbar a {
+    margin-left: 0;
+  }
+  nav {
+    margin-top: 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-small {
+    display: block;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  /**locations setion homepage-**/
+  .locations li a {
+    font-size: 20px;
+  }
+
+  .locations {
+    padding: 0 30px;
+  }
+}
