@@ -41,7 +41,7 @@ header h4 a {
   color: white;
 }
 
-.active:hover {
+.active {
   color: gray !important;
 }
 
@@ -54,12 +54,17 @@ nav {
 }
 
 .nav-item {
-  padding: 0 5px;
+  padding: 0 25px;
   font-family: var(--text-font-family);
 }
 
+.nav-item:hover {
+  background-color: #8ea4bb;
+  color: var(--bottom-color);
+}
+
 .navbar-nav {
-  padding-left: 30%;
+  padding-left: 25%;
 }
 
 .navbar a {
@@ -336,6 +341,14 @@ footer .third-part {
     margin-left: 0;
   }
   nav {
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    padding: 0 5px;
+  }
+
+  .home {
     margin-top: 20px;
   }
 
