@@ -340,7 +340,7 @@ footer .third-part {
     text-align: center;
   }
 
-  /**locations setion homepage-**/
+  /**main setion homepage-**/
   .locations li a {
     font-size: 20px;
   }
@@ -372,6 +372,33 @@ footer .third-part {
   }
 
   footer .third-part {
-    margin-top: 1px;
+    margin-top: 2px;
+  }
+  .second-part-footer {
+    margin-top: 10px;
+  }
+
+  .second-part-footer h2 {
+    margin-top: 12px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  footer h2 {
+    font-size: 12px;
+  }
+
+  .third-part-footer {
+    font-size: 12px;
+  }
+
+  .first-part-footer {
+    font-size: 10px;
+  }
+
+  .third-part-footer h4 {
+    font-size: 10px;
   }
 }
