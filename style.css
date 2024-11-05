@@ -68,7 +68,7 @@ nav {
 }
 
 .navbar a {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .logo-small {
@@ -218,7 +218,7 @@ nav {
 }
 
 .property {
-  padding: 30px 180px 70px;
+  padding: 30px 160px 70px;
 }
 
 .property-link {
@@ -328,10 +328,6 @@ footer .third-part {
 }
 
 @media (max-width: 940px) {
-  body {
-    margin-bottom: ;
-  }
-
   /**navbar-**/
   .navbar-nav {
     padding-left: 0;
