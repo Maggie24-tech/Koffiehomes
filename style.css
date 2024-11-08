@@ -562,7 +562,7 @@ hr {
   /*information page*/
   .info {
     display: inline-grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 178px);
   }
 
   /*Contact-page*/
