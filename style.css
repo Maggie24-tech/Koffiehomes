@@ -340,6 +340,10 @@ hr {
   margin-right: auto;
 }
 
+.properties-page {
+  font-family: var(--text-font-family);
+}
+
 .property-page-homes {
   margin: 30px 400px 60px;
 }
@@ -349,6 +353,10 @@ hr {
   margin-left: 15px;
   color: var(--bottom-color);
   font-weight: bold;
+}
+
+.property-page-homes a {
+  color: var(--bottom-color);
 }
 
 .google-map {
