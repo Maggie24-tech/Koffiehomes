@@ -327,6 +327,34 @@ footer .third-part {
   font-weight: 400;
 }
 
+.properties-page h1 {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.property-page-homes {
+  margin: 30px 400px 60px;
+}
+
+.property-page-homes .schedule-showing {
+  font-size: 16px;
+  margin-left: 15px;
+  color: var(--bottom-color);
+  font-weight: bold;
+}
+
+.google-map {
+  margin: 50px 0 60px;
+}
+
 @media (max-width: 940px) {
   /**navbar-**/
   .navbar-nav {
@@ -423,5 +451,18 @@ footer .third-part {
 
   .third-part-footer h4 {
     font-size: 10px;
+  }
+
+  /*Properties page */
+  .property-page-homes {
+    margin: 30px 15px 60px;
+  }
+
+  .google-map {
+    width: 330px;
+  }
+
+  .property-page-homes h5 {
+    font-size: 15px;
   }
 }
