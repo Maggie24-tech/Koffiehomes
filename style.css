@@ -197,18 +197,20 @@ nav {
   transform: scale(1.1);
 }
 
-.locations img {
+.locations img,
+.info img {
   width: 340px;
   height: 220px;
   max-width: 100%;
   border: 1px #8ea4bb solid;
 }
 
-.locations li a {
+.locations li a,
+.info li a {
   text-decoration: none;
   font-weight: bold;
   font-family: var(--text-font-family);
-  font-size: 40px;
+  font-size: 36px;
   color: white;
 }
 
@@ -363,6 +365,31 @@ hr {
   margin: 50px 0 60px;
 }
 
+.Information-page {
+  text-align: center;
+  font-family: var(--text-font-family);
+  margin: 50px 0 80px;
+}
+
+.Information-page p {
+  padding: 40px 60px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  list-style: none;
+  gap: 3%;
+  text-align: center;
+  opacity: 0.6;
+  padding-left: 320px;
+}
+
+.info-name {
+  position: relative;
+  top: 140px;
+}
+
 @media (max-width: 940px) {
   /**navbar-**/
   .navbar-nav {
@@ -395,11 +422,13 @@ hr {
   }
 
   /**main setion homepage-**/
-  .locations li a {
-    font-size: 20px;
+  .locations li a,
+  .info li a {
+    font-size: 22px;
   }
 
-  .locations {
+  .locations,
+  .info {
     padding: 0 30px;
   }
 
@@ -472,5 +501,11 @@ hr {
 
   .property-page-homes h5 {
     font-size: 15px;
+  }
+
+  /*information page*/
+  .info {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 200px);
   }
 }
