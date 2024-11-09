@@ -77,7 +77,7 @@ nav {
 
 .top-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("/images/inside-home.jpg");
+    url("/images/banner-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -137,7 +137,7 @@ nav {
 
 .main-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("/images/inside-home.jpg");
+    url("/images/middle-banner-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -381,13 +381,15 @@ hr {
   list-style: none;
   gap: 3%;
   text-align: center;
-  opacity: 0.6;
+  opacity: 0.9;
+  filter: brightness(80%);
   padding-left: 320px;
 }
 
 .info-name {
   position: relative;
   top: 140px;
+  color: black;
 }
 
 .contact-page {
