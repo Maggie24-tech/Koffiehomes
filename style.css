@@ -402,6 +402,10 @@ hr {
   padding: 10px 0;
 }
 
+.contact-page p a {
+  color: black;
+}
+
 .contact-page h5 {
   font-weight: 400;
   font-size: 18px;
@@ -489,7 +493,8 @@ hr {
   }
 
   .property {
-    padding: 30px 100px 70px;
+    padding: 30px 50px 70px 50px;
+    margin: 0 15px;
   }
 
   .review-sec h3 {
@@ -583,5 +588,10 @@ hr {
   }
 
   .contact-page form .submit {
-  margin-left: 115px;
+    margin-left: 115px;
+  }
+
+  .contact-page h1 {
+    font-size: 19px;
+  }
 }
