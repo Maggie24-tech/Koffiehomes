@@ -4,8 +4,7 @@
   --bottom-color: #0b3a6e;
 }
 body {
-  max-width: 100%;
-  display: block;
+  min-width: 100%;
   margin: 0;
   background-color: #f3f3f3;
 }
@@ -453,6 +452,10 @@ hr {
 }
 
 @media (max-width: 940px) {
+  body {
+    min-width: 100%;
+  }
+
   /**navbar-**/
   .navbar-nav {
     padding-left: 0;
@@ -496,7 +499,7 @@ hr {
 
   .property {
     padding: 30px 50px 70px 50px;
-    margin: 0 15px;
+    margin: 0 13px;
   }
 
   .review-sec h3 {
@@ -555,7 +558,7 @@ hr {
 
   /*Properties page */
   .property-page-homes {
-    margin: 30px 15px 60px;
+    margin: 30px 1px 60px;
   }
 
   .google-map {
