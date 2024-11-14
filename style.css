@@ -4,7 +4,7 @@
   --bottom-color: #0b3a6e;
 }
 body {
-  min-width: 100%;
+  max-width: 100%;
   margin: 0;
   background-color: #f3f3f3;
 }
