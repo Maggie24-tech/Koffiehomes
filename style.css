@@ -5,6 +5,7 @@
 }
 body {
   max-width: 100%;
+  display: block;
   margin: 0;
   background-color: #f3f3f3;
 }
@@ -452,6 +453,12 @@ hr {
 }
 
 @media (max-width: 940px) {
+  body {
+    max-width: 100%;
+    margin: 0;
+    display: block;
+  }
+
   /**navbar-**/
   .navbar-nav {
     padding-left: 0;
