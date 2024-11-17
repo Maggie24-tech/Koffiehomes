@@ -521,24 +521,28 @@ input {
 
   /*footer*/
   footer {
-    padding-left: 0;
+    padding-left: 0px;
     margin-left: 0;
   }
 
   footer .vertical {
-    padding: 30px;
+    padding: 15px;
   }
 
   footer .third-part {
     margin-top: 12px;
   }
 
-  .second-part-footer {
-    margin-top: 6px;
+  .first-part-footer {
+    padding: 20px 20px 0 0;
   }
 
   .second-part-footer h2 {
-    padding-top: 8px;
+    padding-top: 67px;
+  }
+
+  .third-part-footer i {
+    padding-top: 37px;
   }
 
   footer p {
@@ -610,5 +614,19 @@ input {
 
   .contact-page h1 {
     font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .locations img,
+  .info img {
+    width: 240px;
+    height: 220px;
+    width: 100%;
+  }
+
+  .locations li a,
+  .info li a {
+    font-size: 16px;
   }
 }
