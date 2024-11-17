@@ -585,16 +585,19 @@ input {
     padding: 0;
   }
 
-  .contact-page form input {
-    padding: 5px 160px 5px 5px;
+  .contact-page form select {
+    width: 340px;
+    height: 40px;
   }
 
-  .contact-page form select {
-    padding: 5px 170px 5px 5px;
+  .contact-page form input {
+    width: 340px;
+    height: 40px;
   }
 
   .contact-page form .message {
-    padding: 5px 160px 80px 5px;
+    width: 340px;
+    height: 150px;
   }
 
   .contact-page form .submit {
