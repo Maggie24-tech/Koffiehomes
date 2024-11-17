@@ -521,7 +521,7 @@ input {
 
   /*footer*/
   footer {
-    padding-left: 18px;
+    padding-left: 20px;
     margin-left: 0;
   }
 
@@ -628,5 +628,9 @@ input {
   .locations li a,
   .info li a {
     font-size: 16px;
+  }
+
+  footer {
+    padding-left: 0px;
   }
 }
