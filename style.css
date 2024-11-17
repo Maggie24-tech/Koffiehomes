@@ -427,19 +427,27 @@ hr {
   margin-top: 6px;
   background-color: #f3f3f3;
   border: 1px solid #b3b3b3;
-  padding: 5px 260px 5px 5px;
+  width: 460px;
+  height: 40px;
 }
 
 .contact-page form label {
   margin-top: 18px;
 }
 
-.contact-page form select {
-  padding: 5px 270px 5px 5px;
+.contact-page form select,
+input {
+  padding-left: 10px;
+  width: 460px;
+  height: 40px;
 }
 
 .contact-page form .message {
-  padding: 5px 260px 80px 5px;
+  background-color: #f3f3f3;
+  border: 1px solid #b3b3b3;
+  width: 460px;
+  height: 150px;
+  padding-left: 10px;
 }
 
 .contact-page form .submit {
